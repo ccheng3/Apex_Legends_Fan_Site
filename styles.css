@@ -1,0 +1,10 @@
+h1 {
+   text-align: center;
+}
+footer {
+   text-align: center;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+   height: 100px;
+    width: 100px;
+}
