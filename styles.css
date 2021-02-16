@@ -1,5 +1,38 @@
+.nav { 
+   font-size: 1.2rem;
+}
 h1 {
    text-align: center;
+   font-size: 3.75rem;
+}
+#fan-wallpaper-download {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#fanpaper {
+   height: 30%;
+   width: 30%;
+}
+#wallpaper-button {
+   width: 30%;
+}
+#discord-link {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#discord-header {
+   margin-top: 5rem;
+   text-align: center;   
+}
+#discord-logo img {
+   height: 7em;
+   width: 28em;
+}
+#reddit-logo img {
+   height: 8em;
+   width: 32em;
 }
 footer {
    text-align: center;
@@ -7,4 +40,27 @@ footer {
 .carousel-control-prev-icon, .carousel-control-next-icon {
    height: 100px;
     width: 100px;
+}
+#citations-title {
+   margin-top: 2em;
+}
+#citations {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.overflow-auto {
+   max-width:400px;
+   max-height: 200px;
+}
+#footer-text {
+   margin-top: 2em;
+}
+footer img {
+   height: 1.4%;
+   width: 1.4%;
+}
+#ca-flag {
+   height: 2%;
+   width: 2%;
 }
