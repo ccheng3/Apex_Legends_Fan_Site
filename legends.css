@@ -1,0 +1,16 @@
+#legendsDiv {
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
+}
+
+img {
+   width: 70%;
+   height: 70%;
+}
+
+#pageTitle {
+   text-align: center;
+   font-size: 3rem;
+}
