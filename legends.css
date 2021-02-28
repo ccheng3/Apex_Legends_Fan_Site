@@ -1,7 +1,6 @@
 #legendsDiv {
-   display: flex;
-   flex-wrap: wrap;
-   flex-direction: column;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
    align-items: center;
 }
 
@@ -13,4 +12,5 @@ img {
 #pageTitle {
    text-align: center;
    font-size: 3rem;
+   margin-bottom: 2rem;
 }

@@ -19,6 +19,7 @@ for (let i = 0; i < 16; ++i) {
    imgAndDescription.style.textAlign = "center";
    imgAndDescription.style.fontSize = "2rem";
    imgAndDescription.style.marginBottom = "2rem";
+   console.log(document.querySelector("#legendInfo_1"));
    // append smaller div to legendsDiv
    legendsDiv.appendChild(imgAndDescription);
 }
