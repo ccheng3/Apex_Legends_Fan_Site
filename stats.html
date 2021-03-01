@@ -5,9 +5,13 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Fan Site | Stats</title>
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous">
    <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="stats.css">
 </head>
 
 <body>
@@ -24,13 +28,30 @@
          <a class="nav-link" href="stats.html">Find Your Stats</a>
       </li>
    </ul>
-   TO DO: Stats lookup goes here.
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+   <section id="inputForm">
+      <div id="pageTitle">Find your Account Stats</div>
+      <form
+         action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php"
+         method="get" target="_blank">
+         <label for="network">Network:</label>
+         <input placeholder="origin" type="text" id="network"
+            name="network"><br><br>
+         <label for="accountName">Last name:</label>
+         <input placeholder="kandyrew" type="text" id="accountName"
+            name="accountName"><br><br>
+         <input type="submit" value="Submit">
+      </form>
+   </section>
+   <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"></script>
+   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+   <script src="stats.js"></script>
 </body>
 <footer id="footer-text">
-   <h6> <img id="copyright" src="Sources/Footer/Copyright.svg" alt="copyright-logo"> 2021 Chris Cheng</h6>
+   <h6> <img id="copyright" src="Sources/Footer/Copyright.svg"
+         alt="copyright-logo"> 2021 Chris Cheng</h6>
 </footer>
 
 </html>

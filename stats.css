@@ -1,0 +1,9 @@
+#inputForm {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#pageTitle {
+   margin-top: 4rem;
+}
