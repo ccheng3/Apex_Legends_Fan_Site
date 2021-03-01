@@ -5,9 +5,13 @@
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Fan Site | Meta</title>
-   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+   <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous">
    <link rel="stylesheet" href="styles.css">
+   <link rel="stylesheet" href="meta.css">
 </head>
 
 <body>
@@ -24,13 +28,49 @@
          <a class="nav-link" href="stats.html">Find Your Stats</a>
       </li>
    </ul>
-   TO DO: Gameplay Meta goes here.
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+   <section id="compTips">
+      <div>
+         <iframe class="iframe" id="nokokoVid" width="900" height="515"
+            src="https://www.youtube.com/embed/gf5CbXGlUH4" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+         </iframe>
+         <div class="vidCaption">NokokoPuffs Solo Queue Ranked Guide </div>
+      </div>
+      <div> <iframe class="iframe" id="mokeyVid" width="900" height="515"
+            src="https://www.youtube.com/embed/SsFoHDLccf0" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+         <div class="vidCaption">MokeySniper Apex Legends Advanced Movement
+            Guide
+         </div>
+      </div>
+   </section>
+   <div id="S8_Stats">
+      <a id="S8_Stat_Anchor"
+         href="https://docs.google.com/spreadsheets/d/1uScToU_AjeMSMlvFuLbNq3AcAg1fCwlAvzPloQn3roc/edit#gid=526204479"
+         target="_blank" rel="noopener noreferrer">
+         <img id="S8_Stats_Pic" src="Sources/Others/S8_TTK_Stats_Sheet.png"
+            alt="Season 8 Stats Sheet"></a>
+      <div>Reddit user /u/Bears_say_Meow's Season 8 Weapon Stats Sheet
+      </div>
+      <ul id="S8_Ranked_Team_Comps">
+         Season 8 - Popular Competitive Team Compositions
+         <li>Wraith, Gibraltar, Bloodhound</li>
+         <li>Horizon, Caustic, Octane</li>
+         <li>Wraith, Horizon, Caustic</li>
+         <li>Octane, Revenant, Caustic</li>
+      </ul>
+   </div>
+   <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
       crossorigin="anonymous"></script>
+   <script src="meta.js"></script>
 </body>
 <footer id="footer-text">
-   <h6> <img id="copyright" src="Sources/Footer/Copyright.svg" alt="copyright-logo"> 2021 Chris Cheng</h6>
+   <h6> <img id="copyright" src="Sources/Footer/Copyright.svg"
+         alt="copyright-logo"> 2021 Chris Cheng</h6>
 </footer>
 
 </html>

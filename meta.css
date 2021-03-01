@@ -1,0 +1,48 @@
+#pageTitle {
+   text-align: center;
+   font-size: 3rem;
+}
+
+#compTips {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.iframe {
+   margin-top: 3rem;
+}
+
+.vidCaption {
+   font-size: 1.25rem;
+   text-align: center;
+   line-height: 80%;
+}
+
+#S8_Stats {
+   text-align: center;
+   margin-top: 4rem;
+}
+#S8_Stat_Anchor {
+   height: 50%;
+   width: 50%;
+}
+
+#S8_Stats_Pic {
+   height: 50%;
+   width: 50%;
+   display: inline;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+ul {
+   margin-top: 4rem;
+   text-align: center;
+   list-style-position: inside;
+   font-size: 2.25rem;
+}
+
+li {
+   font-size: 2rem;
+}
